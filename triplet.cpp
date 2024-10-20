@@ -11,7 +11,7 @@ bool find3Numbers(int A[], int arr_size, int sum)
 		for (int j = i + 1; j < arr_size - 1; j++) 
 		{ 
 
-			for (int k = j; k < arr_size; k++) 
+			for (int k = j + 1; k < arr_size; k++) 
 			{ 
 				if (A[i] + A[j] + A[k] == sum) 
 				{ 
